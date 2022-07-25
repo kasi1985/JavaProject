@@ -15,9 +15,14 @@ public class ProjectGitApplication {
 		SpringApplication.run(ProjectGitApplication.class, args);
 	}
 	
-	@GetMapping
+	@GetMapping("/kasi")
 	public String hello() {
 		return "Hello..... Kasi!!";
+	}
+	
+	@GetMapping("/prasanna")
+	public String helloP() {
+		return "Hello..... Prasanna!!";
 	}
 
 }
